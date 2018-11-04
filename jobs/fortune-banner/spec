@@ -1,0 +1,5 @@
+---
+name: fortune-banner
+templates:
+  pre-start.sh.erb: bin/pre-start
+

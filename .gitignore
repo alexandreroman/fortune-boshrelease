@@ -1,0 +1,4 @@
+.DS_Store
+config/private.yml
+dev_releases
+.dev_builds

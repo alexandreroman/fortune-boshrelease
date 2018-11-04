@@ -1,0 +1,16 @@
+#!/bin/bash
+
+if [ ! -f /usr/games/fortune ]; then
+    # TODO include fortunes and its dependencies as packages in the release
+    apt-get install -y fortunes
+fi
+
+cat > /etc/update-motd.d/20-fortune << EOF
+#!/bin/sh
+echo ""
+echo "---"
+/usr/games/fortune
+echo "---"
+EOF
+
+chmod +x /etc/update-motd.d/20-fortune

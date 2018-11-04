@@ -1,0 +1,8 @@
+---
+blobstore:
+  provider: s3
+  options:
+    bucket_name: fortune-boshrelease
+    region: eu-west-3
+    host: s3-eu-west-3.amazonaws.com
+final_name: fortune
