@@ -1,0 +1,12 @@
+---
+releases:
+- name: fortune
+  version: 1
+  url: git+https://github.com/alexandreroman/fortune-boshrelease
+
+addons:
+- name: add-fortune-banner
+  jobs:
+  - name: fortune-banner
+    release: fortune
+
