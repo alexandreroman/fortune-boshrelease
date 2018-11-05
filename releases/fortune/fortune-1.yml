@@ -1,0 +1,13 @@
+name: fortune
+version: "1"
+commit_hash: bbd3e8c
+uncommitted_changes: false
+jobs:
+- name: fortune-banner
+  version: fb02b9e38511503542308ef4b6df7ec19c7a3cea
+  fingerprint: fb02b9e38511503542308ef4b6df7ec19c7a3cea
+  sha1: 3673e93c8afe74bee946af3281549fce6879aff0
+license:
+  version: 0fbc9511a7e7f3a4d2f1af47f5ed327237b5f06c
+  fingerprint: 0fbc9511a7e7f3a4d2f1af47f5ed327237b5f06c
+  sha1: f13f950c6c956e2ac0d4bf6ec567ff06e2764b7d
